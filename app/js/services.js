@@ -13,7 +13,9 @@ angular.module('myApp.services', []).
     var countries = [
     {name: 'USA',code: 'us'}, 
     {name: 'RU',code: 'uk'}, 
-    {name: 'Francia',code: 'fr'}
+    {name: 'Francia',code: 'fr'},
+    {name: 'Argentina',code: 'AR'}
+    
     ];
     return {
         getCountries: function() {
