@@ -9,7 +9,7 @@ angular.module('myApp', [
   'myApp.directives',
   'myApp.controllers'
 ]).
-config(['$routerProvider', function($routerProvider){
-    $routerProvider.when('/', {templateUrl: 'partial/lista-pelis.html', controller: 'ListaPelisCtrl'});
-    $routerProvider.otherwise({redirectTo: '/'});
+config(['$routeProvider', function($routeProvider) {
+  $routeProvider.when('/', {templateUrl: 'partials/lista-pelis.html', controller: 'ListaPelisCtrl'});
+  $routeProvider.otherwise({redirectTo: '/'});
 }]);
